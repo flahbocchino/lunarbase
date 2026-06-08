@@ -1,0 +1,113 @@
+{
+  "gerado_em": "2026-06-08T13:53:41.816950Z",
+  "data_referencia": "2026-06-08",
+  "fonte": "NASA DONKI + NASA NeoWs — dados públicos",
+  "aviso": "Dados baseados em documentação pública da NASA. Base atualizada até 08/06/2026.",
+  "risco": {
+    "nivel": 2,
+    "label": "Alto",
+    "confianca": 68.0,
+    "features": {
+      "CMEs": 177,
+      "Flares": 23,
+      "Geomag": 2,
+      "Vel.Solar": 1474.0,
+      "Ast.Perigosos": 2,
+      "Dist.Lunar": 16.3,
+      "Vel.Ast": 21.89
+    },
+    "importancias": {
+      "CMEs": 0.174,
+      "Flares": 0.176,
+      "Geomag": 0.104,
+      "Vel.Solar": 0.132,
+      "Ast.Perigosos": 0.093,
+      "Dist.Lunar": 0.159,
+      "Vel.Ast": 0.162
+    }
+  },
+  "alerta_missao": "Atividade solar elevada. Protocolo de proteção contra radiação recomendado.",
+  "evento_do_dia": {
+    "tipo": "meteorito",
+    "titulo": "Asteroide Potencialmente Perigoso",
+    "descricao": "NASA NeoWs detectou 2 asteroide(s) classificados como potencialmente perigosos.",
+    "impacto": {
+      "energia": -10,
+      "o2": -8
+    }
+  },
+  "resumo": {
+    "total_eventos_solares": 202,
+    "cmes_30_dias": 177,
+    "flares_30_dias": 23,
+    "asteroides_proximos": 18,
+    "asteroides_perigosos": 2,
+    "distancia_lunar_minima": 16.3
+  },
+  "eventos_solares": [
+    {
+      "tipo": "CME",
+      "data": "2026-06-08",
+      "velocidade_km_s": 889.0,
+      "latitude": -24.0,
+      "fonte": "NASA DONKI CME"
+    },
+    {
+      "tipo": "CME",
+      "data": "2026-06-08",
+      "velocidade_km_s": 270.0,
+      "latitude": 5.0,
+      "fonte": "NASA DONKI CME"
+    },
+    {
+      "tipo": "CME",
+      "data": "2026-06-08",
+      "velocidade_km_s": 1068.0,
+      "latitude": -39.0,
+      "fonte": "NASA DONKI CME"
+    },
+    {
+      "tipo": "CME",
+      "data": "2026-06-07",
+      "velocidade_km_s": 906.0,
+      "latitude": -54.0,
+      "fonte": "NASA DONKI CME"
+    },
+    {
+      "tipo": "CME",
+      "data": "2026-06-07",
+      "velocidade_km_s": 811.0,
+      "latitude": -33.0,
+      "fonte": "NASA DONKI CME"
+    }
+  ],
+  "asteroides": [
+    {
+      "nome": "(2018 GE)",
+      "data": "2026-06-07",
+      "diametro_km": 0.0188,
+      "distancia_lunar": 16.3,
+      "velocidade_km_s": 3.09,
+      "potencialmente_perigoso": false,
+      "fonte": "NASA NeoWs"
+    },
+    {
+      "nome": "(2014 KG39)",
+      "data": "2026-06-05",
+      "diametro_km": 0.0594,
+      "distancia_lunar": 34.62,
+      "velocidade_km_s": 7.99,
+      "potencialmente_perigoso": false,
+      "fonte": "NASA NeoWs"
+    },
+    {
+      "nome": "(2005 WR2)",
+      "data": "2026-06-06",
+      "diametro_km": 0.7414,
+      "distancia_lunar": 38.81,
+      "velocidade_km_s": 14.48,
+      "potencialmente_perigoso": false,
+      "fonte": "NASA NeoWs"
+    }
+  ]
+}
